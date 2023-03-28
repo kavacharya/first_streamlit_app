@@ -35,7 +35,3 @@ my_cur.execute("Select * from fruit_load_list")
 my_data_row=my_cur.fetchone()
 streamlit.text("Food list contains")
 streamlit.text(my_data_row)
-
-
-streamlit.text("Hello from snowflake!!")
-streamlit.text(my_data_row)
